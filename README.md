@@ -33,47 +33,44 @@ cd spam-classification
 ```
 
 ### 2. Create and activate a virtual environment
-    ```bash
-    python -m venv myenv
-    # Windows
-    myenv\Scripts\activate
-    # macOS/Linux
-    source myenv/bin/activate
-    ```
+```bash
+python -m venv myenv
+# Windows
+myenv\Scripts\activate
+# macOS/Linux
+source myenv/bin/activate
+```
 
 ### 3. Install dependencies
-    ```bash
-    pip install -r requirements.txt
-    ```
+```bash
+pip install -r requirements.txt
+```
 
 ### 4. Run the scripts
     
-    📥 Download & extract the dataset
+📥 Download & extract the dataset
+```bash
+python dataset.py
+```
 
-        ```bash
-        python dataset.py
-        ```
-
-    🤖 Train and evaluate the model
-
-        ```bash
-        python main.py
-        ```
+🤖 Train and evaluate the model
+```bash
+python main.py
+```
 
 ## 📊 Example Predictions
 
 The trained model evaluates custom SMS messages and returns:
 
-    1. Spam/Not-Spam label
+- Spam/Not-Spam label
 
-    2. Probability scores for each class
+- Probability scores for each class
 
-    Example:
-
-    ```yaml
-    Message: Congratulations! You've won a $1000 Walmart gift card.
-    Prediction: Spam
-    Spam Probability: 0.98
-    Not-Spam Probability: 0.02
-    ```
+Example:
+```yaml
+Message: Congratulations! You've won a $1000 Walmart gift card.
+Prediction: Spam
+Spam Probability: 0.98
+Not-Spam Probability: 0.02
+```
 
