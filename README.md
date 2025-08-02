@@ -27,10 +27,10 @@ The dataset contains **5,574 labeled SMS messages**, split into `spam` and `ham`
 ## 🛠️ How to Run
 
 ### 1. Clone this repository
-    ```bash
-    git clone https://github.com/YOUR_USERNAME/spam-classification.git
-    cd spam-classification
-    ```
+```bash
+git clone https://github.com/YOUR_USERNAME/spam-classification.git
+cd spam-classification
+```
 
 ### 2. Create and activate a virtual environment
     ```bash
