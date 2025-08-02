@@ -1,4 +1,4 @@
-# 📩 SMS Spam Classifier
+# 📩 SMS Spam Detection Pipeline
 
 This project is a **machine learning pipeline** that detects **spam SMS messages** using natural language processing (NLP) techniques and a Naive Bayes classifier. The model is trained on the [UCI SMS Spam Collection Dataset](https://archive.ics.uci.edu/dataset/228/sms+spam+collection).
 
